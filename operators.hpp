@@ -59,7 +59,7 @@ namespace weird_operators {
 	}
 	float subtract(float num, float num2)
         { 
-	        return a + (~b + 1);
+	        return num + (~num2 + 1);
         }
 
 }
