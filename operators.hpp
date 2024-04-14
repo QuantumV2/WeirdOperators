@@ -1,4 +1,3 @@
-#define NEGATIVE_ONE -1
 #include <limits>
 
 namespace weird_operators {
@@ -59,7 +58,8 @@ namespace weird_operators {
 		return num - -(num2);
 	}
 	float subtract(float num, float num2)
-	{
-		return num + (num2 * NEGATIVE_ONE); //Technically still using the "-". But afaik there is no way to do that without it, and in my defense, the minus is outside the function.
-	}
+        { 
+	        return a + (~b + 1);
+        }
+
 }
